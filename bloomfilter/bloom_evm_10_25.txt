@@ -1,0 +1,6 @@
+// 10^-25 Configuration
+const TOTAL_BITS: u64 = 128_137_868_000;
+const U64_WORDS: usize = ((TOTAL_BITS + 63) / 64) as usize;
+const NUM_HASHES: u64 = 83;
+
+const OUTPUT_FILE: &str = "D:/bsc/BSC_Addresses/evm_10_25.bloom";
